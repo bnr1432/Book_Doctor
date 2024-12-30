@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Book Appointment</title>
+<link rel="stylesheet" href="reg.css" />
+
+</head>
+<body style="background-image: url('./images/doctorbg.jpg');">
+<div class="container">
+<form>
+    <h1>Book Appointment</h1>
+        <div class="divconatiner">
+        <input type="email" name="" id="" placeholder="EnterEmail.." />
+        </div>
+        <div class="divconatiner">
+            <input type="password" name="" id="" placeholder="Enter Password..."/>
+        </div>
+        <div class="divconatiner">
+            <input type="password" name="" id="" placeholder="Re-Enter Paswword..."> 
+        </div>  
+        <div class="divconatiner sub">
+                <div class="divsubcontainer"> 
+                <input type="text" placeholder="FirstName" />
+                </div>
+                <div class="divsubcontainer">
+                <input type="text" name="" id="" placeholder="LastName" />
+                </div> 
+        </div> 
+        <div class="divconatiner genderbox">
+            <div class="gender" id="genderfirst">  
+                 <input type="radio" name="gender" id="male" />
+                 <label for="male">Male</label>  
+            </div> 
+            <div class="gender"> 
+                <input type="radio" name="gender" id="female" />
+                <label for="female">Female</label>
+            </div>
+            <input type="date" name="date" required/>
+        </div>
+    <div class="divconatiner select">
+        <select>
+        <option>Select a Country</option>
+        <option>India</option><option>Africa</option><option>America</option>      
+        <option>China</option><option>Australia</option><option>Dubai</option>
+        </select> 
+     </div>
+        
+    <div class="divconatiner checkbox">       
+        <input type="checkbox" name="" id="termsandconditions" />
+        <label for="termsandconditions" >I agree with terms & Conditions</label>
+    </div>
+    <div class="divconatiner button">
+        <input type="submit" value="Book Appointment" onclick="myFunction()"/>
+    </div>
+</form>
+</div> 
+<script>
+    function myFunction() {
+     alert("Appotionment Booked");
+ //   document.getElementById("demo").innerHTML = "";
+ }
+ </script>      
+</body>      
+ </html>

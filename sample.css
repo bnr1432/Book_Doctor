@@ -1,0 +1,82 @@
+/* first row of div classes */
+.main{
+    display: flex;
+    padding: 20px 20px;
+   justify-content: space-between;
+}
+.closer{
+    /* background-color:lightgray; */
+    background-image: url('./images/dental.jpg');
+    height: 50vh;
+    width: 30%;
+    padding: 10px 10px;
+    border-radius: 20px;        
+}
+.closer:hover{
+    transform: scale(1.1);
+}
+.closer1{
+    background-image: url('./images/Cardiologist.jpg');
+    /* background-color:lightblue; */
+    height: 50vh;
+    width: 30%;
+    padding: 10px 10px; 
+    border-radius: 20px;
+}
+.closer1:hover{
+    transform: scale(1.1);
+}
+.closer2{
+    /* background-color:lightpink; */ 
+    background-image: url('./images/orthopedic.jpg');
+    height: 50vh;
+    width: 30%;
+    padding: 10px 10px;  
+    border-radius: 20px;
+
+}
+.closer2:hover{
+    transform: scale(1.1);
+}
+/* second row of div classes */
+.main1{
+    display: flex;
+    padding: 20px 20px;
+   justify-content: space-between;
+}
+
+.closer3{
+    /* background-color:lightcyan; */
+    background-image: url('./images/Neurology.jpg');
+    height: 50vh;
+    width: 30%;
+    padding: 10px 10px;
+    border-radius: 20px;
+    
+}
+.closer3:hover{
+    transform: scale(1.1);
+}
+.closer4{
+    background-image: url('./images/General\ practitioner\ .jpg');
+    height: 50vh;
+    width: 30%;
+    padding: 10px 10px; 
+    border-radius: 20px;
+ 
+}
+.closer4:hover{
+    transform: scale(1.1);
+}
+.closer5{
+    background-image: url('./images/Optometrist.jpg');
+    height: 50vh;
+    width: 30%;
+    padding: 10px 10px;  
+    border-radius: 20px;
+
+}
+.closer5:hover{
+    transform: scale(1.1);
+}
+
